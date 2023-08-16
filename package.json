@@ -4,7 +4,7 @@
 	"description": "Repository of NodeJS course (part four) of Midudev.",
 	"main": "index.js",
 	"scripts": {
-		"start": "node src/index.js",
+		"start": "node ./src/index.js",
 		"start:dev": "node --watch src/index.js"
 	},
 	"lint-staged": {
