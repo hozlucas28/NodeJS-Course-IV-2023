@@ -30,7 +30,7 @@
     Installation
 </h2>
 <p>
-    Clone the repository, install <a href="https://nodejs.org/es/" target="_blank">Node.js</a> (runtime environment) and use <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> (code editor). [TODO].
+    Clone the repository, install <a href="https://nodejs.org/es/" target="_blank">Node.js</a> (runtime environment) and use <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> (code editor). Then, run command <code>npm install</code> to install all packages used in this repository. Now, runs <code>npm run start:dev</code> in your terminal to test the API in your local server. Available calls are documented in the <a href="./src/api.http" target="_blank">api.http</a> file.
 </p>
 
 <h2>
