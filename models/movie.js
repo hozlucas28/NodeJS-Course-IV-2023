@@ -5,6 +5,7 @@
 -------------------------------------------------------------------------- */
 
 import { randomUUID } from 'node:crypto'
+import { createRequire } from 'node:module'
 // import moviesJSON from './data/movies.json' assert { type: 'json' } // Primera forma de importar un JSON utilizando "ECMA modules".
 
 // Segunda forma de importar un JSON utilizando "ECMA modules"
