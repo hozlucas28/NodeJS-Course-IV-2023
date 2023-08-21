@@ -3,6 +3,7 @@
 	"version": "1.0.0",
 	"description": "Repository of NodeJS course (part four) of Midudev.",
 	"main": "index.js",
+	"type": "module",
 	"scripts": {
 		"start": "node index.js",
 		"start:dev": "node --watch index.js"
