@@ -1,11 +1,11 @@
 ### Recuperar todas las películas
 GET http://localhost:3000/movies
 
-### Recuperar una película por ID
-GET http://localhost:3000/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
-
 ### Recuperar todas las películas por un genero
 GET http://localhost:3000/movies?genre=Action
+
+### Recuperar una película por ID
+GET http://localhost:3000/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
 
 ### Crear una película
 POST http://localhost:3000/movies
@@ -24,9 +24,12 @@ Content-Type: application/json
 }
 
 ### Actualizar una película
-PATCH http://localhost:3000/movies/04986507-b3ed-442c-8ae7-4c5df804f896
+PATCH http://localhost:3000/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
 Content-Type: application/json
 
 {
-    "year": 1992
+    "year": 2000
 }
+
+### Eliminar una película
+DELETE http://localhost:3000/movies/c8a7d63f-3b04-44d3-9d95-8782fd7dcfaf
