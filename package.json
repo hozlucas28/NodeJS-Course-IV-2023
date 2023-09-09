@@ -1,42 +1,41 @@
 {
-	"name": "nodejs-course-iv-2023",
-	"version": "1.0.0",
-	"description": "Repository of NodeJS course (part four) of Midudev.",
-	"main": "src/index.js",
-	"type": "module",
-	"scripts": {
-		"start": "node src/index.js",
-		"start:dev": "node --watch src/index.js"
-	},
-	"lint-staged": {
-		"**/*": "prettier --write --ignore-unknown"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/hozlucas28/NodeJS-Course-IV-2023.git"
-	},
-	"keywords": [
-		"NodeJS",
-		"Node",
-		"Course",
-		"Midudev",
-		"Part",
-		"four"
-	],
 	"author": "hozlucas28",
-	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/hozlucas28/NodeJS-Course-IV-2023/issues"
-	},
-	"homepage": "https://github.com/hozlucas28/NodeJS-Course-IV-2023#readme",
-	"devDependencies": {
-		"husky": "^8.0.3",
-		"lint-staged": "^14.0.0",
-		"prettier": "3.0.2"
 	},
 	"dependencies": {
 		"cors": "^2.8.5",
 		"express": "^4.18.2",
 		"zod": "^3.22.1"
-	}
+	},
+	"description": "Repository of NodeJS course (part four) of Midudev.",
+	"devDependencies": {
+		"husky": "^8.0.3",
+		"lint-staged": "^14.0.0",
+		"prettier": "3.0.2"
+	},
+	"homepage": "https://github.com/hozlucas28/NodeJS-Course-IV-2023#readme",
+	"keywords": [
+		"NodeJS",
+		"Node",
+		"Course",
+		"Midudev",
+		"Part four"
+	],
+	"license": "MIT",
+	"lint-staged": {
+		"**/*": "prettier --write --ignore-unknown"
+	},
+	"main": "src/index.js",
+	"name": "nodejs-course-iv-2023",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hozlucas28/NodeJS-Course-IV-2023.git"
+	},
+	"scripts": {
+		"start": "node src/index.js",
+		"start:dev": "node --watch src/index.js"
+	},
+	"type": "module",
+	"version": "1.0.0"
 }
